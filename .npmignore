@@ -1,0 +1,6 @@
+.git*
+.eslint*
+.editorconfig
+.gitignore
+out
+.travis.yml
