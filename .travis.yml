@@ -6,8 +6,7 @@ cache:
     - ~/.npm
 stages:
   - test
-  - name: release
-    if: branch = master AND repo = eventOneHQ/cordova-utils AND type != pull_request
+  - release
 jobs:
   include:
     - stage: test
@@ -31,5 +30,8 @@ jobs:
         provider: script
         skip_cleanup: true
         script: npx semantic-release
+        on:
+          branch: master
+          repo: eventOneHQ/cordova-utils
 notifications:
   email: false
