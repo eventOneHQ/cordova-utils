@@ -39,7 +39,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
     "jsdoc": "^3.6.2",
-    "semantic-release": "^15.13.18"
+    "semantic-release": "^17.2.3"
   },
   "engines": {
     "node": ">=8.5"
